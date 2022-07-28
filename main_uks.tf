@@ -1,4 +1,8 @@
-######
+module "naming_convention"{
+     source   = "./modules/azurecaf_naming"
+}
+
+
 
 module "resource-group-uks" {
   source   = "./modules/resource-group"
